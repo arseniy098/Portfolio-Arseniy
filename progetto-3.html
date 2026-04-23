@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto Finale | FSL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="progetti.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Ars<span class="logo-accent">e</span>niy</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#chi-sono" class="nav-link">Chi Sono</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="index.html#percorso" class="nav-link active">Percorso FSL <span class="nav-subtitle">&bull; 26/27</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="progetto-1.html" class="dropdown-link">2024 - 2025</a></li>
+                        <li><a href="progetto-2.html" class="dropdown-link">2025 - 2026</a></li>
+                        <li><a href="progetto-3.html" class="dropdown-link active">2026 - 2027</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#competenze" class="nav-link">Competenze</a></li>
+                <li><a href="index.html#contatti" class="nav-link">Contatti</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero project-hero short">
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="hero-content project-hero-content">
+            <p class="hero-subtitle mb-2 reveal-up">FSL 2026 - 2027</p>
+            <h1 class="hero-title project-hero-title reveal-up">Progetto Finale</h1>
+        </div>
+    </section>
+
+    <section class="section pt-0">
+        <div class="container">
+            <div class="coming-soon-wrapper">
+                <h2 class="coming-soon-title">Coming Soon</h2>
+                <p class="coming-soon-sub">Il progetto è ancora in corso. Torna più avanti per scoprire i dettagli!</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 20);
+        });
+        setTimeout(() => {
+            document.querySelectorAll('.reveal-up').forEach(el => el.classList.add('revealed'));
+        }, 100);
+    </script>
+</body>
+</html>

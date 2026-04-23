@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio FSL - Formazione Scuola Lavoro">
+    <title>Portfolio FSL | Arseniy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-accent">A</span>rseniy
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#chi-sono" class="nav-link" data-section="chi-sono">Chi Sono</a></li>
+                <li class="nav-item-dropdown no-dropdown">
+                    <a href="#percorso" class="nav-link" data-section="percorso">Percorso FSL</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="progetto-1.html" class="dropdown-link">2024 - 2025</a></li>
+                        <li><a href="progetto-2.html" class="dropdown-link">2025 - 2026</a></li>
+                        <li><a href="progetto-3.html" class="dropdown-link">2026 - 2027</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#competenze" class="nav-link" data-section="competenze">Competenze</a></li>
+                <li><a href="#contatti" class="nav-link" data-section="contatti">Contatti</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO / HOME -->
+    <section class="hero" id="home">
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="hero-glow hero-glow-3"></div>
+        <div class="hero-content">
+            <h1 class="hero-title reveal-up">Arseniy Hadzhyiev</h1>
+            <p class="hero-subtitle reveal-up">Portfolio FSL</p>
+            <p class="hero-description reveal-up">
+                Questo è il mio portfolio digitale dedicato alle esperienze di 
+                <strong>Formazione Scuola Lavoro (FSL)</strong>. 
+                Scopri il mio percorso, i progetti realizzati e le competenze acquisite.
+            </p>
+            <div class="hero-cta reveal-up">
+                <a href="#percorso" class="btn btn-primary">Il mio percorso</a>
+                <a href="#chi-sono" class="btn btn-outline">Scopri di più</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHI SONO -->
+    <section class="section" id="chi-sono">
+        <div class="container">
+            <h2 class="section-title reveal-up">Chi Sono</h2>
+            <div class="section-line reveal-up"></div>
+            <div class="about-grid">
+                <div class="about-image reveal-left about-images-container">
+                    
+                    <!-- Foto Principale -->
+                    <div class="about-img-wrapper">
+                        <div class="about-img-placeholder">
+                            <img src="/img/o.avif" alt="Foto Profilo" class="profile-photo">
+                        </div>
+                        <div class="about-img-border"></div>
+                    </div>
+
+                    <!-- Seconda Foto -->
+                    <div class="about-img-wrapper">
+                        <div class="about-img-placeholder">
+                            <img src="/img/io.jpeg" alt="Seconda Foto Profilo" class="profile-photo">
+                        </div>
+                        <div class="about-img-border"></div>
+                    </div>
+
+                </div>
+                <div class="about-text reveal-right">
+                    <h3>Il Mio Profilo</h3>
+                    <p>
+                        Sono <strong>Arseniy Hadzhyiev</strong>, studente del quarto anno dell'indirizzo di Informatica presso l'I.I.S. Blaise Pascal. Ho intrapreso questo percorso formativo spinto da una forte passione per le nuove tecnologie e dal desiderio di comprendere come funzionano i sistemi digitali alla base dell'innovazione.
+                    </p>
+
+                    <h4>Obiettivi Formativi</h4>
+                    <p>
+                        Il mio studio è mirato alla costruzione di solide competenze tecniche, indispensabili per il mio futuro accademico e lavorativo. Attualmente nutro un forte interesse per la programmazione in vari linguaggi e il web design, ambiti in cui mi piacerebbe specializzarmi.
+                    </p>
+
+                    <h4>Sport e Soft Skills</h4>
+                    <p>
+                        Oltre alla tecnologia, ho una grande dedizione per il basket e gioco a livello agonistico nella Pallacanestro Reggiana. L'impegno sportivo è per me altamente formativo e mi ha permesso di sviluppare competenze trasversali importanti:
+                    </p>
+                    <ul>
+                        <li><strong>Lavoro di squadra:</strong> sapersi relazionare e coordinare con i compagni per un obiettivo comune.</li>
+                        <li><strong>Disciplina e Costanza:</strong> rispettare gli impegni presi e mantenere la determinazione di fronte alle sfide.</li>
+                        <li><strong>Organizzazione e Gestione del Tempo:</strong> bilanciare efficacemente gli allenamenti intensivi con un buon rendimento scolastico.</li>
+                    </ul>
+
+                    <h4>Il Percorso FSL</h4>
+                    <p>
+                        In questo portfolio ho raccolto alcune delle esperienze e dei progetti sviluppati durante il triennio di Formazione Scuola Lavoro (FSL). Considero queste occasioni fondamentali per affiancare la pratica alla teoria e per prepararsi in modo concreto al mondo lavorativo.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="29.5">0</span>
+                            <span class="stat-label">Ore FSL</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="6">0</span>
+                            <span class="stat-label">Progetti</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PERCORSO FSL -->
+    <section class="section section-alt" id="percorso">
+        <div class="container">
+            <h2 class="section-title reveal-up">Percorso FSL</h2>
+            <div class="section-line reveal-up"></div>
+            <p class="section-subtitle reveal-up">Le tappe principali della mia esperienza formativa</p>
+
+            <div class="timeline">
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-marker"></div>
+                    <a href="progetto-1.html" class="timeline-content">
+                        <span class="timeline-date">2024 - 2025</span>
+                        <h3>Progetti ICT e Hardware</h3>
+                        <p>
+                            Sviluppo software e assemblaggio hardware. In quest'anno ho partecipato 
+                            ai progetti FSL UST, Monta e Smonta, e Bus Connect. Clicca per i dettagli.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Hardware</span>
+                            <span class="tag">Sviluppo Software</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-marker"></div>
+                    <a href="progetto-2.html" class="timeline-content">
+                        <span class="timeline-date">2025 - 2026</span>
+                        <h3>Sviluppo Competenze</h3>
+                        <p>
+                            Secondo anno di FSL focalizzato sull'approfondimento delle competenze 
+                            tecniche e trasversali attraverso nuovi laboratori e progetti. Clicca per i dettagli.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Formazione</span>
+                            <span class="tag">Competenze Digitali</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-marker"></div>
+                    <a href="progetto-3.html" class="timeline-content">
+                        <span class="timeline-date">2026 - 2027</span>
+                        <h3>Progetto Finale</h3>
+                        <p>
+                            Ultimo anno del percorso FSL con l'obiettivo di realizzare un 
+                            progetto conclusivo che sintetizzi e applichi tutte le competenze acquisite. Clicca per i dettagli.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">TBD</span>
+                            <span class="tag">TBD</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- COMPETENZE -->
+    <section class="section" id="competenze">
+        <div class="container">
+            <h2 class="section-title reveal-up">Competenze Acquisite</h2>
+            <div class="section-line reveal-up"></div>
+            <p class="section-subtitle reveal-up">Le skill sviluppate durante le esperienze FSL</p>
+
+            <div class="skills-grid">
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon">
+                        <span class="material-symbols-outlined">groups</span>
+                    </div>
+                    <div>
+                        <h3>Lavoro di Squadra</h3>
+                        <p>Capacità di collaborare efficacemente in team, contribuendo al raggiungimento degli obiettivi comuni.</p>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon">
+                        <span class="material-symbols-outlined">psychology</span>
+                    </div>
+                    <div>
+                        <h3>Problem Solving</h3>
+                        <p>Approccio analitico nella risoluzione dei problemi, con capacità di trovare soluzioni creative ed efficaci.</p>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon">
+                        <span class="material-symbols-outlined">chat</span>
+                    </div>
+                    <div>
+                        <h3>Comunicazione</h3>
+                        <p>Competenze comunicative sviluppate nell'interazione con colleghi, clienti e superiori.</p>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon">
+                        <span class="material-symbols-outlined">code</span>
+                    </div>
+                    <div>
+                        <h3>Competenze Digitali</h3>
+                        <p>Utilizzo avanzato di strumenti digitali e tecnologie informatiche applicate al contesto lavorativo.</p>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon">
+                        <span class="material-symbols-outlined">schedule</span>
+                    </div>
+                    <div>
+                        <h3>Gestione del Tempo</h3>
+                        <p>Organizzazione efficiente del lavoro, rispettando scadenze e priorità nelle attività assegnate.</p>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon">
+                        <span class="material-symbols-outlined">lightbulb</span>
+                    </div>
+                    <div>
+                        <h3>Creatività</h3>
+                        <p>Pensiero creativo e innovativo applicato alla progettazione e allo sviluppo di soluzioni originali.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATTI -->
+    <section class="section" id="contatti">
+        <div class="container">
+            <h2 class="section-title reveal-up">Contatti</h2>
+            <div class="section-line reveal-up"></div>
+            <p class="section-subtitle reveal-up">Vuoi saperne di più? Contattami!</p>
+
+            <div class="contact-cards reveal-up">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <span class="material-symbols-outlined">mail</span>
+                    </div>
+                    <div>
+                        <h4>Email</h4>
+                        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=arseniy.hadzhyiev@studenti.iispascal.it" target="_blank" class="contact-link">arseniy.hadzhyiev@studenti.iispascal.it</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <span class="material-symbols-outlined">phone</span>
+                    </div>
+                    <div>
+                        <h4>Telefono</h4>
+                        <p>+39 320 197 3189</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <span class="material-symbols-outlined">school</span>
+                    </div>
+                    <div>
+                        <h4>Scuola</h4>
+                        <p>Il tuo istituto scolastico</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Arseniy Hadzhyiev</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
